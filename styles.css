@@ -1,0 +1,44 @@
+body {
+    background-color: #ffe6e6;
+    font-family: Arial, sans-serif;
+}
+
+.card {
+    width: 80%;
+    margin: 0 auto;
+    background-color: #ffd1d1;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+    background-color: #ffb3b3;
+    padding: 20px;
+    border-radius: 10px 10px 0 0;
+}
+
+.card-header h1 {
+    color: #fff;
+    text-align: center;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.photo-cards {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.photo-card {
+    width: 45%;
+    margin-bottom: 20px;
+}
+
+.photo-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
